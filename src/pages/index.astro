@@ -1,0 +1,16 @@
+---
+import '../styles/global.css';
+import Card from '../components/Card.svelte';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen flex items-center justify-center bg-background p-4 font-['Inter']">
+    <Card client:load />
+  </body>
+</html>
